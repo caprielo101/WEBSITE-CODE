@@ -14,8 +14,8 @@
             <div class="logo">
                 <a href="#home"><img src="x.png" alt="Description"></a>
             </div>
-            <a href="#Home" class="nav">Home</a>
-            <a href="#Promo" class="nav">Promo</a>
+            <a href="index.html" class="nav">Home</a>
+            <a href="promo.html" class="nav">Promo</a>
             <a href="#Gallery" class="nav">Gallery</a>
             <a href="#Order" class="nav">Order</a>
             <a href="#About" class="nav">About Us</a>   
@@ -53,17 +53,62 @@
             <br>
 
                 <!-- Dots -->
-                <div style="text-align:center">
-                  <span class="dot" onclick="currentSlide(1)"></span> 
-                  <span class="dot" onclick="currentSlide(2)"></span> 
-                  <span class="dot" onclick="currentSlide(3)"></span>
-                  <span class="dot" onclick="currentSlide(4)"></span>  
+            <div id="dotClick" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>  
+            </div>
+
+            <!-- Content Home -->
+            <div id="advantages">
+                <div id="title"><h1>Why Choose AVLaundry?</h1></div>
+                <div id="advaContainer">
+                    <div class="columnAdv">
+                        <div><img src="Square.png"></div>
+                        <div>Personalized Hand Finishing</div>
+                    </div>
+                    <div class="columnAdv">
+                        <div><img src="Square.png"></div>
+                        <div>Personalized Hand Finishing</div>
+                    </div>
+                    <div class="columnAdv">
+                        <div><img src="Square.png"></div>
+                        <div>Personalized Hand Finishing</div>
+                    </div>
+                    <div class="columnAdv">
+                        <div><img src="Square.png"></div>
+                        <div>Personalized Hand Finishing</div>
+                    </div>
                 </div>
-            test 
+            </div>
+
+            <!-- Price -->
+            <div id="prices">
+                <div id="priceTitle"><h1>Our Price</h1></div>
+                <div id="priceContainer">
+                    <div class="columnPrice">
+                        <div><img src="washer.png"></div>
+                        <div id="priceVal"><h1>Rp 8.000 / kg</h1></div>
+                    </div>
+                    <div class="columnPrice">
+                        <div><img src="washer.png"></div>
+                        <div id="priceVal"><h1>Rp 10.000 / kg</h1></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Location -->
+            <div>
+                <div id="locContainer">
+                   <div id="LocTitle"><h1>Our Location</h1></div>
+                    <div class="map"><img class="imgMap" src="map.png"></div> 
+                </div>
+            </div>
         </p>
     </div>
     
-    <footer>
+    <footer id="foot">
         <div class="about">
             <div class="column" id="aboutus">
                 <span id="about-header">
