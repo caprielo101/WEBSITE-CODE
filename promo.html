@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="header.css">
     <script src="main.js"></script>
+    <script src="Promo.js"></script>
 </head>
 <body>
     <header>
@@ -17,14 +19,64 @@
             <a href="index.html" class="nav">Home</a>
             <a href="promo.html" class="nav">Promo</a>
             <a href="#Gallery" class="nav">Gallery</a>
-            <a href="#Order" class="nav">Order</a>
+            <a href="order.html" class="nav">Order</a>
             <a href="#About" class="nav">About Us</a>   
             <a href="javascript:void(0);" class="icon" onclick="drop()">&#9776</a>
         </div>
     </header>
 
     <div class="context">
-    	
+    	<h1 id="promo-header">PROMO CODE</h1>
+        <input id="promo" type="text" name="promo-check">
+        <input type="submit" name="" onclick="checkCode()">
+        <p id="promo-display"></p>
     </div>
+    
+
+    <footer id="foot">
+        <div class="about">
+            <div class="column" id="aboutus">
+                <span id="about-header">
+                    About Us
+                </span>
+                <br>
+                <span id="about-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                </span>
+            </div>
+            <div class="column" id="address">
+                <span id="address-header">
+                    Contact Us
+                </span>
+                <br>
+                <span id="address-content">
+                    <img src="phone.png" alt="" class="contact">
+                    <span id="contact-person">+6221 666 6969</span>
+                    <br>
+                    <img src="whatsapp.png" alt="" class="contact">
+                    <span id="contact-person">+62812 6969 6969</span>
+                    <br>
+                    <img src="mail.png" alt="" class="contact">
+                    <span id="contact-person">avlaundry@gmail.com</span>
+                </span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2018 AVLaundry.</p>
+        </div>
+        <div class="social">
+            <a href="#facebook" class="media"><img src="facebook.png" alt=""></a>
+            <a href="#twitter" class="media"><img src="twitter.png" alt=""></a>
+            <a href="#instagram" class="media"><img src="instagram.png" alt=""></a>
+        </div>
+    </footer>
+
+    <script>
+
+    </script>
 </body>
 </html>
