@@ -26,7 +26,7 @@ function validate(){
 			} else{
 				tempError.innerHTML = "";
 				alert("Registered");
-				document.getElementById("form-a").reset();
+				window.location.reload();
 			}
 		}	
 
