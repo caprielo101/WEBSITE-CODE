@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
     <link rel="stylesheet" type="text/css" media="screen" href="header.css">
     <link rel="stylesheet" type="text/css" media="screen" href="footer.css">
-
+    <link rel="stylesheet" type="text/css" media="screen" href="order-style.css">
 </head>
 <body>
     <header>
@@ -48,7 +48,7 @@
                     <label for="">Address</label>
                 </div>
                 <div class="col-75">
-                    <textarea id="form-address" name="address" placeholder="Address"></textarea>
+                    <textarea id="form-address" name="address" placeholder="Address" rows="4"></textarea>
                 </div>
             </div>
             <div class="row">
@@ -71,9 +71,12 @@
                 <div class="submission">
                     <input type="submit" name="" onclick="validate()">
                 </div>
-                <span id="error"></span>
             </div>   
-
+            <div class="row">
+                <div class="error-message">
+                    <span id="error"></span>
+                </div>
+            </div>
         </div>
 
     </div>

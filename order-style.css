@@ -1,0 +1,94 @@
+/* Input text, number, tel, and textarea */
+input[type=text],input[type=number],input[type=tel], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* styling the error */
+#error {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    display: inline-block;
+    text-align: right;
+}
+
+/* context styling override */
+.context {
+    text-align:left;
+}
+
+/* label name styling */
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    /* text-align: left; */
+}
+
+.submission {
+    margin-top: 20px;
+}
+/* Submit button */
+input[type=submit]{
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover{
+    background-color: darkgray;
+}
+
+input[type=submit]:active{
+    background-color: white;
+    color: black;
+}
+/* form container */
+.form-container{
+    border-radius: 5px;
+    /* background-color: white; */
+    padding: 20px;
+}
+
+/* col 25 width */
+.col-25{
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75{
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* clear float */
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* responsive */
+@media screen and (max-width: 500px){
+    .col-25, .col-75, input[type=submit]{
+        width: 100%;
+        margin-top: 0;
+    }
+    #error {
+
+        text-align: left;
+    }
+}

@@ -16,7 +16,7 @@ function validate(){
 			if (tempName == "") {
 				tempError.innerHTML = "Name must be filled.";
 			} else if (tempPhone == ""){
-				tempError.innerHTML = "Phone must be filled.";
+				tempError.innerHTML = "Phone number must be filled.";
 			} else if (tempAddress.length < 8) {
 				tempError.innerHTML = "Address is too short.";
 			} else if (tempQuantity < 1){

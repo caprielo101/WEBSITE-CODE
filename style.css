@@ -12,5 +12,6 @@ body {
     text-align: center;
     color: black;
     background-color: aliceblue;
-    padding: 70px 0px 0px 0px;
+    padding: 70px 0px 70px 0px;
+    overflow: hidden;
 }
