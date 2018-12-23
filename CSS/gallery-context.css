@@ -1,0 +1,13 @@
+.images-container {
+    /* max-width: 1200px; */
+    position: relative;
+    margin: auto;
+}
+
+#galleryImg {
+    width: 100%;
+}
+
+.context {
+    padding: 0;
+}

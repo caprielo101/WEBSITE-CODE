@@ -3,13 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>AV Laundry</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="header.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="footer.css">
-    <script src="main.js"></script>
-    <script src="Promo.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../CSS/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../CSS/header.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../CSS/footer.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../CSS/gallery-context.css">
 </head>
 <body>
     <header>
@@ -17,23 +16,38 @@
             <div class="logo">
                 <a href="#home"><img src="x.png" alt="Description"></a>
             </div>
-            <a href="index.html" class="nav">Home</a>
-            <a href="promo.html" class="nav">Promo</a>
-            <a href="#Gallery" class="nav">Gallery</a>
-            <a href="order.html" class="nav">Order</a>
+            <a href="../HTML/index.html" class="nav">Home</a>
+            <a href="../HTML/promo.html" class="nav">Promo</a>
+            <a href="../HTML/gallery.html" class="nav">Gallery</a>
+            <a href="../HTML/order.html" class="nav">Order</a>
             <a href="#About" class="nav">About Us</a>   
             <a href="javascript:void(0);" class="icon" onclick="drop()">&#9776</a>
         </div>
     </header>
 
     <div class="context">
-    	<h1 id="promo-header">PROMO CODE</h1>
-        <input id="promo" type="text" name="promo-check">
-        <input type="submit" name="" onclick="checkCode()">
-        <p id="promo-display"></p>
+            <div class="images-container">
+                <div class="img-slides">
+                    <img src="../IMG/img1.jpg" alt="" id="galleryImg">
+                </div>
+            </div>
+            <div class="images-container">
+                <div class="img-slides">
+                    <img src="../IMG/img2.jpg" alt="" id="galleryImg">
+                </div>
+            </div>
+            <div class="images-container">
+                <div class="img-slides">
+                    <img src="../IMG/img3.jpg" alt="" id="galleryImg">
+                </div>
+            </div>
+            <div class="images-container">
+                <div class="img-slides">
+                    <img src="../IMG/img4.jpg" alt="" id="galleryImg">
+                </div>
+            </div>
     </div>
     
-
     <footer id="foot">
         <div class="about">
             <div class="column" id="aboutus">
@@ -55,13 +69,13 @@
                 </span>
                 <br>
                 <span id="address-content">
-                    <img src="phone.png" alt="" class="contact">
+                    <img src="../IMG/phone.png" alt="" class="contact">
                     <span id="contact-person">+6221 666 6969</span>
                     <br>
-                    <img src="whatsapp.png" alt="" class="contact">
+                    <img src="../IMG/whatsapp.png" alt="" class="contact">
                     <span id="contact-person">+62812 6969 6969</span>
                     <br>
-                    <img src="mail.png" alt="" class="contact">
+                    <img src="../IMG/mail.png" alt="" class="contact">
                     <span id="contact-person">avlaundry@gmail.com</span>
                 </span>
             </div>
@@ -70,14 +84,13 @@
             <p>Copyright &copy; 2018 AVLaundry.</p>
         </div>
         <div class="social">
-            <a href="#facebook" class="media"><img src="facebook.png" alt=""></a>
-            <a href="#twitter" class="media"><img src="twitter.png" alt=""></a>
-            <a href="#instagram" class="media"><img src="instagram.png" alt=""></a>
+            <a href="#facebook" class="media"><img src="../IMG/facebook.png" alt=""></a>
+            <a href="#twitter" class="media"><img src="../IMG/twitter.png" alt=""></a>
+            <a href="#instagram" class="media"><img src="../IMG/instagram.png" alt=""></a>
         </div>
     </footer>
 
-    <script>
-
-    </script>
+    <script src="../JS/main.js"></script>
+    <script src="../JS/img-slides.js"></script>
 </body>
 </html>

@@ -1,0 +1,90 @@
+/* margining the div promo container */
+.promo-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* container for list of promo */
+.promo-list {
+    display: block;
+}
+
+/* container for the items (promo) inside the container */
+.item-container {
+    margin-bottom: 20px;
+}
+
+/* inner padding for the item container */
+.item-inner {
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* row container for promo items */
+.item-row {
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* styling the column divider */
+.col-left-img, .col-hidden, .col-right-desc {
+    display: inline-block;
+    height: 350px;
+    min-height: 1px;
+    position: relative;
+}
+
+/* column for left side of the row (image) */
+.col-left-img {
+    width: 40%;
+    float: left;
+}
+
+/* divider between the image and description*/
+.col-hidden {
+    width: 10%;
+    float: left;
+
+}
+
+/* column for right side of the row (description) */
+.col-right-desc {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+/* styling the promo text inside col-right-desc container */
+#promo-text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* styling for image inside col-left-img container */
+#promo-image {
+    width: 100%;
+    max-width: 345px;
+}
+
+/* media responsive tab */
+@media screen and (max-width: 500px) {
+    .col-left-img, .col-right-desc {
+        display: block;
+        float: none;
+        height: auto;
+        width: 100%;
+    }
+    .col-hidden {
+        display: none;
+    }
+    .item-row {
+        margin: auto;
+    }
+}

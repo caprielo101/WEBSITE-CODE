@@ -7,6 +7,7 @@ function drop(){
     }
 }
 
+// slider for gallery
 var slideIndex = 1;
 var timer = null;
 showSlides(slideIndex);
@@ -38,5 +39,3 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   timer = setTimeout(showSlides, 2000);
 } 
-
-
