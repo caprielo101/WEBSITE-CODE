@@ -4,10 +4,10 @@
     margin: auto;
 }
 
-#topImg {
+/*#topImg {
     width: 100%;
 
-}
+}*/
 
 .context {
     padding: 0;
@@ -18,6 +18,31 @@
     padding-right: 15px;
     position: relative;
     margin: auto;
+}
+
+.img-1 {
+    /* max-width: 1200px; */
+    background-image: url("../IMG/about-laundry.png");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.padder {
+    padding: 150px 0px 0px 0px;
+}
+
+.aboutus-text {
+    color: white;
+    background-color: black;
+    padding: 5px 18px 5px 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    /*font-family: "Calibri";*/
 }
 
 .about-us-container {
@@ -41,7 +66,7 @@
 .col-big, .col-small, .col-divider {
     float: left;
     display: inline-block;
-    height: 350px;
+/*    height: 370px;*/
 }
 
 .col-small {
