@@ -1,0 +1,14 @@
+.images-container {
+    /* max-width: 1200px; */
+    position: relative;
+    margin: auto;
+}
+
+#topImg {
+    width: 100%;
+    height: 300px;
+}
+
+.context {
+    padding: 0;
+}
