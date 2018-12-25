@@ -141,3 +141,7 @@ header {
     margin: 0;
     border: none;
 }
+
+#icon-web {
+    max-height: 50px;
+}

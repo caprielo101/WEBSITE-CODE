@@ -49,11 +49,14 @@
     }
     .top-navigation.responsive .logo{
         float: none;
+        display: block;
     }
     .top-navigation.responsive .nav {
         text-align: right;
     }
-
+    /* .top-navigation.responsive #icon-web-a {
+        display: none;
+    } */
 }
 
 
@@ -69,4 +72,17 @@ header {
 .logo {
     float: left;
     display: inline;
+    height: 50px;
+}
+
+#icon-web {
+    height: 50px;
+}
+
+#icon-web-a {
+    padding: 0px;
+}
+
+.logo {
+    padding: 0px 10px 0px 30px;
 }
