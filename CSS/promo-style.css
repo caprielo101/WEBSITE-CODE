@@ -99,6 +99,9 @@
 .item-container:hover .item-inner {
     cursor: pointer;
 }
+.item-container:hover .col-right-desc {
+    height: auto;
+}
 /* media responsive tab */
 @media screen and (max-width: 500px) {
     .col-left-img, .col-right-desc {

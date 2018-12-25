@@ -1,7 +1,9 @@
-
 .top-navigation {
     background-color: antiquewhite;
     overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .top-navigation a {
@@ -62,7 +64,7 @@
 
 /* header container*/
 header {
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     z-index: 1;
     top: 0;
@@ -85,4 +87,18 @@ header {
 
 .logo {
     padding: 0px 10px 0px 30px;
+}
+
+.header {
+    background-color: aliceblue;
+    text-align: center;
+}
+#header-laundry {
+    height: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    #header-laundry {
+        width: auto;
+    }
 }
