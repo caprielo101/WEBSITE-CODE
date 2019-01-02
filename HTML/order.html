@@ -29,62 +29,70 @@
             <a href="javascript:void(0);" class="icon" onclick="drop()">&#9776</a>
     </div>
 
-<div class="background-image">
-    <div class="context">	
-        <div class="form-container">
-            <div class="row">
-                <div class="col-25">
-                    <label for="">Full Name</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="form-name" name="fullname" placeholder="Full Name">
-                </div>
+    <div class="image-parallax">
+        <div class="text-container">
+            <div class="text-form">
+                Order
             </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="">Phone Number</label>
+        </div>
+    </div>
+
+    <div class="background-image">
+        <div class="context">	
+            <div class="form-container">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="">Full Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="form-name" name="fullname" placeholder="Full Name">
+                    </div>
                 </div>
-                <div class="col-75">
-                    <input type="tel" id="form-phone" name="phone" placeholder="Phone Number" pattern="^[0-9-+s()]*$">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="">Phone Number</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="tel" id="form-phone" name="phone" placeholder="Phone Number" pattern="^[0-9-+s()]*$">
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="">Address</label>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="">Address</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="form-address" name="address" placeholder="Address" rows="4"></textarea>
+                    </div>
                 </div>
-                <div class="col-75">
-                    <textarea id="form-address" name="address" placeholder="Address" rows="4"></textarea>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="">Quantity</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="number" id="form-quantity" name="quantity" value="0">
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="">Quantity</label>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="">Promo Code</label>
+                    </div>
+                    <div class="col-75">
+                        <input id="form-promo" type="text" name="promo-check">
+                    </div>
                 </div>
-                <div class="col-75">
-                    <input type="number" id="form-quantity" name="quantity" value="0">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="">Promo Code</label>
-                </div>
-                <div class="col-75">
-                    <input id="form-promo" type="text" name="promo-check">
-                </div>
-            </div>
-            <div class="row">
-                <div class="submission">
-                    <input type="submit" name="" onclick="validate()">
-                </div>
-            </div>   
-            <div class="row">
-                <div class="error-message">
-                    <span id="error"></span>
+                <div class="row">
+                    <div class="submission">
+                        <input type="submit" name="" onclick="validate()">
+                    </div>
+                </div>   
+                <div class="row">
+                    <div class="error-message">
+                        <span id="error"></span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
     <footer id="foot">
         <div class="about">
