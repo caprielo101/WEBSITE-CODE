@@ -155,12 +155,21 @@
 }
 
 #priceImg {
-    width: 100%;
+    width: auto;;
+    height: 250px;
 }
 
 .priceImg {
     padding: 40px;
+
 }
+
+
+.advHeading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 500px) {
     .columnAdv {
         margin: 0;
@@ -175,5 +184,8 @@
         padding: 10px;
         width: 100%;
         font-size: 10px;
+    }
+    .advHeading {
+        font-size: 16px;
     }
 }

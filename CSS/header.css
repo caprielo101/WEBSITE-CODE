@@ -2,8 +2,9 @@
     background-color: antiquewhite;
     overflow: hidden;
     position: sticky;
-    top: 0;
-    z-index: 1;
+    /* top: 0; */
+    z-index: 999;
+    transition: all 0.5s ease;
 }
 
 .top-navigation a {
@@ -36,8 +37,16 @@
 }
 
 @media screen and (max-width:500px) {
-    .top-navigation.responsive {
+    /* .top-navigation.responsive {
         position: relative;
+    } */
+    .top-navigation.responsive {
+        background:antiquewhite;
+        width: 100%;
+        top: 104px;
+        position: fixed;
+        z-index: 99;
+        transition: all 0.5s ease;
     }
     .top-navigation.responsive .icon {
         position: absolute;
@@ -55,6 +64,11 @@
     }
     .top-navigation.responsive .nav {
         text-align: right;
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    .top-navigation.responsive #nav {
+        border-bottom: 1px solid;
     }
     /* .top-navigation.responsive #icon-web-a {
         display: none;
@@ -64,7 +78,6 @@
 
 /* header container*/
 header {
-    /* position: fixed; */
     width: 100%;
     z-index: 1;
     top: 0;
@@ -90,8 +103,11 @@ header {
 }
 
 .header {
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    background-image: url("../IMG/dark-blue-ocean-surface-seen-from-underwater-looped-slow-motion-fractal-waves-underwater-and-rays-of-sunlight-shining-through-4k-seamless-loop-video_hy1i0dcrl_thumbnail-full01.png");
     text-align: center;
+    background-size: cover;
+    background-position-y: center;
 }
 
 #header-laundry {
@@ -102,4 +118,24 @@ header {
     #header-laundry {
         width: auto;
     }
+}
+
+/* .top-navigation{
+	background:antiquewhite;
+	width: 100%;
+	top: 104px;
+	display: block;
+	position: fixed;
+	z-index: 99;
+    transition:all .5s ease;
+    overflow: hidden;
+} */
+
+#headerzzz{
+	width:100%;
+	/* padding:16px; */
+	/* display:block; */
+	position:absolute;
+	z-index:10;
+	/* box-shadow:0 8px 6px -6px #000 */
 }

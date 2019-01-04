@@ -2,8 +2,8 @@
 /* footer container */
 footer {
     margin: 0;
-    padding: 10px;
-    background-color: lightgray;
+    padding: 20px 10px 10px 20px;
+    background-color: #0F0F0F;
 }
 
 .copyright {
@@ -71,7 +71,8 @@ footer {
 
 #foot{
     margin-top: 0;
-    padding-top: 10px;
+    padding-top: 15px;
+    color: white;
 }
 
 #aboutus {
@@ -81,6 +82,7 @@ footer {
     padding-right: calc(5vw + 10%);
     /*width: 55%;*/
 }
+
 #about-header, #address-header{
     font-size: 22px;
     font-weight: bold;

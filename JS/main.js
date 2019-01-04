@@ -7,6 +7,19 @@ function drop(){
     }
 }
 
+window.onscroll = function(){
+    scrollFunction()
+ }
+ function scrollFunction(){
+    var sn = document.getElementById("top-navigation");
+       if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+          sn.style.top = "0"
+       }
+       else{
+          sn.style.top = "104px"
+       }
+ }
+
 // slider for gallery
 var slideIndex = 1;
 var timer = null;
