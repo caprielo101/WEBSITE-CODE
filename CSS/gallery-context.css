@@ -2,13 +2,33 @@
     /* max-width: 1200px; */
     position: relative;
     margin: auto;
+    width: 50%;
 }
 
 #galleryImg {
     width: 100%;
+/*    box-shadow: 15px 0 15px -4px rgba(255, 255, 255, 0.5), -15px 0 8px -4px rgba(255, 255, 255, 0.5);*/
+}
 
+#galleryImg:hover {
+    width: 100%;
+    box-shadow: 15px 0 15px -4px rgba(255, 255, 255, 0.5), -15px 0 8px -4px rgba(255, 255, 255, 0.5);
+}
+
+.background-gallery {
+    /* max-width: 1200px; */
+    background-image: url("../IMG/background-gallery.jpg");
+    min-height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
 }
 
 .context {
     padding: 0;
+    background: rgb(0, 0, 0);
+ 	background: rgba(0, 0, 0, 0.8);
 }
