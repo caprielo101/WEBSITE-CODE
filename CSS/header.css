@@ -4,7 +4,7 @@
     position: sticky;
     /* top: 0; */
     z-index: 999;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
 }
 
 .top-navigation a {
@@ -46,7 +46,7 @@
         top: 104px;
         position: fixed;
         z-index: 99;
-        transition: all 0.5s ease;
+        transition: all 0.2s ease;
     }
     .top-navigation.responsive .icon {
         position: absolute;
