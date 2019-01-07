@@ -2,17 +2,29 @@
     /* max-width: 1200px; */
     position: relative;
     margin: auto;
-    width: 50%;
+    width: 100%;
+}
+
+#img-slides{
+    display: flex;
+    align-items: center;
 }
 
 #galleryImg {
-    width: 100%;
-/*    box-shadow: 15px 0 15px -4px rgba(255, 255, 255, 0.5), -15px 0 8px -4px rgba(255, 255, 255, 0.5);*/
+    width: 50%;
+    float: left;
+    display: block;
+    vertical-align: middle;
 }
 
 #galleryImg:hover {
-    width: 100%;
+    width: 50%;
     box-shadow: 15px 0 15px -4px rgba(255, 255, 255, 0.5), -15px 0 8px -4px rgba(255, 255, 255, 0.5);
+}
+
+.imgDesc{
+    color: white;
+    padding-top: 100px;
 }
 
 .background-gallery {
