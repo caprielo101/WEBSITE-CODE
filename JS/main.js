@@ -1,3 +1,4 @@
+/*Drop down in Navigation Bar when in mobile view*/
 function drop(){
     var x = document.getElementById("top-navigation");
     if(x.className === "top-navigation"){

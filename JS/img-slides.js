@@ -5,7 +5,6 @@ carousel();
 function carousel(){
     var i;
     var x = document.getElementsByClassName("img-slides");
-    var y = document.getElementById("img-slides");
 
     for (i = 0; i< x.length; i++){
         x[i].style.display = "none";
@@ -14,7 +13,8 @@ function carousel(){
     if (slideIndex > x.length) {
         slideIndex = 1;
     }
-    // x[slideIndex-1].style.display = "block";
+
+    /*Set slide display and auto change*/
     if(window.innerWidth <= 500){
         x[slideIndex-1].style.display = "inline-block";
     } else x[slideIndex-1].style.display = "flex";

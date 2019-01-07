@@ -107,6 +107,7 @@ input[type=submit]:active{
     padding: 0;
 }
 
+/*Background parallax*/
 .image-parallax {
     /* max-width: 1200px; */
     background-image: url("../IMG/laundry-bg.jpg");
@@ -129,5 +130,4 @@ input[type=submit]:active{
     padding: 5px 18px 5px 18px;
     font-size: 25px;
     letter-spacing: 10px;
-    /*font-family: "Calibri";*/
 }

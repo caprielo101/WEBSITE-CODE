@@ -1,7 +1,5 @@
-var code = ["","AVLaunching", "FirstMonthAV"];
-// var a = -1;
-// var input = else if (a!=-1) {
-// code.splice(a, 1);
+/*List of Promo Code*/
+var code = ["", "ANNIV2019", "AVLXMAS", "BINUSGRADE", "GAMBIR50"];
 
 function validate(){
 		var tempName = document.getElementById("form-name").value;
@@ -11,8 +9,7 @@ function validate(){
 		var tempQuantity = document.getElementById("form-quantity").value;
 		var tempCode = document.getElementById("form-promo").value;
 
-		// a = code.indexOf(tempCode);
-
+		/*Input Validation*/
 		if (tempName == "") {
 			tempError.innerHTML = "Name must be filled.";
 		} else if (tempPhone == ""){

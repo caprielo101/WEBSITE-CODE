@@ -105,16 +105,6 @@ body {
   }
 }  
 
-/* Header style */
-/* header {
-    background-color: black;
-    background-image: url("x.png");
-    height: 50px;
-    width: 97%;
-    position: fixed;
-    z-index: 10;
-} */
-
 /* header container */
 header {
     position: fixed;

@@ -6,11 +6,13 @@ footer {
     background-color: #0F0F0F;
 }
 
+/*Copyright Text*/
 .copyright {
     text-align: center;
     padding-left: 10px;
 }
 
+/*Social Media*/
 .social {
     text-align: right;
     padding: 10px 20px 10px 0px;
@@ -36,15 +38,14 @@ footer {
     box-sizing: border-box;
 }
 
+/*Media responsive*/
 @media screen and (max-width: 500px){
-    .column{
+    .column {
         float: none;
         display: block;
         margin-right: 0;
         position: static;
-        /*width: unset;*/
-/*        all: none;
-*/    }
+        }
     #aboutus {
         width: inherit;
         margin: 0;
@@ -75,12 +76,10 @@ footer {
     color: white;
 }
 
+/*About Style*/
 #aboutus {
-/*    padding: 15px;
-    padding-right: 200px;*/
     padding: auto;
     padding-right: calc(5vw + 10%);
-    /*width: 55%;*/
 }
 
 #about-header, #address-header{
@@ -95,15 +94,11 @@ footer {
     text-align: justify;
 }
 
+
+/*Address Style*/
 #address {
-    /*width: 45%;*/
     font-size: 15px;
 }
-
-/*#address-header {
-    font-size: 22px;
-    font-weight: bold;
-}*/
 
 #address-content {
     padding-top: 15px;

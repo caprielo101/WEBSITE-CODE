@@ -3,6 +3,7 @@
 .slideimage {
     width: 80%;
 }
+
 .images-container{
     max-width: 1200px;
     position: relative;
@@ -86,6 +87,7 @@
     padding: 5px 0 25px 0;
 }
 
+/*Prices*/
 #priceTitle{
     text-align: center;
 }
@@ -107,6 +109,17 @@
     box-sizing: border-box;
 }
 
+#priceImg {
+    width: auto;;
+    height: 250px;
+}
+
+.priceImg {
+    padding: 40px;
+
+}
+
+/*Advantages*/
 #advaContainer{
     overflow: hidden;
     /* width: 80%; */
@@ -124,9 +137,22 @@
     box-sizing: border-box;
 }
 
+#advImg {
+    width: 100%;
+}
+
+.advImg {
+    padding: 40px;
+}
+
+.advHeading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*Location*/
 #locContainer{
     margin: auto;
-/*    background-color: antiquewhite;*/
     background-image: url("https://backgroundcheckall.com/wp-content/uploads/2018/10/abstract-soft-background.png");
     min-height: 300px;
     background-attachment: fixed;
@@ -144,30 +170,6 @@
 
 .imgMap{
     width: 70%;
-}
-
-#advImg {
-    width: 100%;
-}
-
-.advImg {
-    padding: 40px;
-}
-
-#priceImg {
-    width: auto;;
-    height: 250px;
-}
-
-.priceImg {
-    padding: 40px;
-
-}
-
-
-.advHeading {
-    font-size: 24px;
-    font-weight: bold;
 }
 
 @media screen and (max-width: 500px) {

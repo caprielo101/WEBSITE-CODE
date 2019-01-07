@@ -18,7 +18,6 @@
 }
 
 .top-navigation a:hover {
-    /* background-color: lightgray; */
     color: lightcoral;
 }
 
@@ -37,9 +36,6 @@
 }
 
 @media screen and (max-width:500px) {
-    /* .top-navigation.responsive {
-        position: relative;
-    } */
     .top-navigation.responsive {
         background:antiquewhite;
         width: 100%;
@@ -70,9 +66,6 @@
     .top-navigation.responsive #nav {
         border-bottom: 1px solid;
     }
-    /* .top-navigation.responsive #icon-web-a {
-        display: none;
-    } */
 }
 
 
@@ -102,8 +95,8 @@ header {
     padding: 0px 10px 0px 30px;
 }
 
+/*Header*/
 .header {
-    /* background-color: aliceblue; */
     background-image: url("../IMG/dark-blue-ocean-surface-seen-from-underwater-looped-slow-motion-fractal-waves-underwater-and-rays-of-sunlight-shining-through-4k-seamless-loop-video_hy1i0dcrl_thumbnail-full01.png");
     text-align: center;
     background-size: cover;
@@ -118,24 +111,4 @@ header {
     #header-laundry {
         width: auto;
     }
-}
-
-/* .top-navigation{
-	background:antiquewhite;
-	width: 100%;
-	top: 104px;
-	display: block;
-	position: fixed;
-	z-index: 99;
-    transition:all .5s ease;
-    overflow: hidden;
-} */
-
-#headerzzz{
-	width:100%;
-	/* padding:16px; */
-	/* display:block; */
-	position:absolute;
-	z-index:10;
-	/* box-shadow:0 8px 6px -6px #000 */
 }

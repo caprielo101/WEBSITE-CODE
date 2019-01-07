@@ -4,11 +4,6 @@
     margin: auto;
 }
 
-/*#topImg {
-    width: 100%;
-
-}*/
-
 .context {
     padding: 0;
 }
@@ -20,6 +15,7 @@
     margin: auto;
 }
 
+/*Background Image*/
 .img-1 {
     /* max-width: 1200px; */
     background-image: url("../IMG/ruko.jpg");
@@ -42,7 +38,6 @@
     padding: 5px 18px 5px 18px;
     font-size: 25px;
     letter-spacing: 10px;
-    /*font-family: "Calibri";*/
 }
 
 .about-us-container {
@@ -63,10 +58,10 @@
     margin-bottom: 40px;
 }
 
+/*Divide Content*/
 .col-big, .col-small, .col-divider {
     float: left;
     display: inline-block;
-/*    height: 370px;*/
 }
 
 .col-small {
@@ -108,6 +103,7 @@
 }
 
 
+/*Media Responsive*/
 @media screen and (max-width: 500px) {
     .col-big, .col-small, .col-divider {
         float: none;
