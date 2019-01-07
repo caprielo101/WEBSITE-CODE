@@ -28,32 +28,3 @@ function validate(){
 			window.location.reload();
 		}
 	}	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*function generateCode(){
-	var x = Math.floor(Math.random()*10)+"A"+Math.floor(Math.random()*10);
-	code.push(x);
-	console.log(code);
-}
-
-function removeCode(){
-	code.pop();
-	console.log(code);
-}*/
